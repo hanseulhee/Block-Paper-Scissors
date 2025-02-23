@@ -21,7 +21,7 @@ const SelectMove = ({ onSelectMove }: SelectMoveProps) => {
   return (
     <div className="flex flex-col gap-6 mt-8">
       <div className="flex gap-6">
-        {["바위", "보", "가위"].map((move) => (
+        {["주먹", "보", "가위"].map((move) => (
           <button
             key={move}
             onClick={() => handleMoveSelect(move)}
@@ -33,7 +33,7 @@ const SelectMove = ({ onSelectMove }: SelectMoveProps) => {
               }
               neon-border hover:scale-105`}
           >
-            {move === "바위" ? "바위" : move === "보" ? "보" : "가위"}
+            {move === "주먹" ? "주먹" : move === "보" ? "보" : "가위"}
           </button>
         ))}
       </div>
