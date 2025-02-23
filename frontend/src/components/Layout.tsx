@@ -13,7 +13,7 @@ function Layout() {
   }, [windowSize.height]);
 
   return (
-    <main className="min-h-[calc(var(--vh,1vh)*100)] max-w-[480px] w-full mx-auto h-screen bg-white pt-10 pb-10">
+    <main className="min-h-[calc(var(--vh,1vh)*100)] max-w-[480px] w-full mx-auto h-screen bg-white">
       <Outlet />
     </main>
   );
