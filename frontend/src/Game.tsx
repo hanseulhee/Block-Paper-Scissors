@@ -6,7 +6,7 @@ const Game = () => {
   const navigate = useNavigate();
   const [selectedMove, setSelectedMove] = useState<string | null>(null);
   const [developerMove, setDeveloperMove] = useState<string | null>(null);
-  const moves = ["가위", "주먹", "보"];
+  const moves = ["가위", "바위", "보"];
 
   const [isGameEnded, setIsGameEnded] = useState(false);
   const [isGameLoading, setIsGameLoading] = useState(false);
@@ -34,8 +34,8 @@ const Game = () => {
     if (playerMove === developerMove) return "비겼습니다!";
     if (
       (playerMove === "보" && developerMove === "가위") ||
-      (playerMove === "가위" && developerMove === "주먹") ||
-      (playerMove === "주먹" && developerMove === "보")
+      (playerMove === "가위" && developerMove === "바위") ||
+      (playerMove === "바위" && developerMove === "보")
     ) {
       return "당신이 졌습니다..";
     }

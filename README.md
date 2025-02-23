@@ -29,7 +29,7 @@ MetaMask Chrome 확장 프로그램이 설치되지 않은 경우 게임을 실�
 
 선택된 값은 해시 처리되어 보안성이 유지됩니다.
 
-<img width="33%" alt="Image" src="https://github.com/user-attachments/assets/64318337-fee7-49fd-bfdc-1f8fd095f383" />
+<img width="33%" alt="Image" src="https://github.com/user-attachments/assets/dfe433ed-fe46-4a2d-98d0-de0c07e757ce" />
 
 #### `결과 확인`
 
